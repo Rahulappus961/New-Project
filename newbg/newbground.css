@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+h1{
+   font-size:1.5rem;
+   font-family: "EB Garamond", serif;
+   border:4px ridge skyblue;
+   padding:15px;
+   margin:10px;
+   text-align:center;
+   text-shadow:-3px -3px 5px skyblue;
+   font-size:2rem; 
+   text-transform:uppercase;
+   border-radius:40px;
+}
+h2{
+  text-transform:uppercase;
+  text-decoration:underline;
+  text-shadow:-3px -3px 5px pink;
+}
+ul li{
+   font-size:1.6rem;
+   list-style:lower-alpha;
+   text-indent:30px;
+   margin:5px;
+}
+.newli{
+   font-size:1.4rem;
+   text-indent:30px;
+   margin:5px;
+}
+.facebook{
+  list-style:url("./images/facebook.png");
+}
+.youtube{
+  list-style:url("./images/youtube.png");
+}
+.insta{
+   list-style:url("./images/instagram.png");
+}
+.twit{
+  list-style:url("./images/twitter.png");
+}
+.face{
+  text-align:center;
+}
+.face p{
+  font-size:1.5rem;
+  font-family: "EB Garamond", serif;
+  text-indent:10px;
+  text-align:justify;
+}
+h3{
+  font-size:1.6rem;
+  font-weight:700;
+  border:2px solid black;
+  background-image:linear-gradient(190deg,#1676FE,#4190FD,#8BBBFC);
+  padding:10px;
+  text-align:center;
+  font-family: "EB Garamond", serif;
+  border-radius:50px;
+  font-weight:700;
+}
+.you{
+ font-size:1.6rem;
+  font-weight:700;
+  border:2px solid black;
+  background-image:radial-gradient(#FE0F11 20%,#FF3E40,#FA7778);
+  padding:10px;
+  text-align:center;
+  font-family: "EB Garamond", serif;
+  border-radius:50px;
+  font-weight:700;
+}
+.ins{
+  font-size:1.6rem;
+  font-weight:700;
+  border:2px solid black;
+  background-image:linear-gradient(190deg,#FF11C4,#FE37CC,#F879D8);
+  padding:10px;
+  text-align:center;
+  font-family: "EB Garamond", serif;
+  border-radius:50px;
+  font-weight:700;
+
+}
+.twet{
+   font-size:1.6rem;
+  font-weight:700;
+  border:2px solid black;
+  background-image:radial-gradient(#0ECFFA 40%,#53DBF9,#8EEAFE);
+  padding:10px;
+  text-align:center;
+  font-family: "EB Garamond", serif;
+  border-radius:50px;
+  font-weight:700;
+}
