@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Oxanium:wght@200..800&display=swap');
+
+h1{
+   font-family: "Agdasima", sans-serif;
+   border:2px ridge green;
+   text-align:center;
+   padding:5px;
+   border-radius:20px;  
+   position:sticky;
+   top:10px;
+   background-color:pink;
+   color:red;
+}
+p{
+   text-indent:30px;
+   font-family: "Agdasima", sans-serif;
+   font-size:1.7rem;
+   font-weight:500;
+}
+h2{
+   display:inline-block;
+   border:2px solid blue;
+   padding:10px;
+   font-size:1.6rem;
+   border-radius:20px;
+   background-color:red;
+   text-transform:uppercase;
+}
+img{
+   margin-left:60px;
+   margin-bottom:20px; 
+}
+.main{
+   width:100%; 
+   
+}
+.local{
+   width:29%;
+   border:3px solid black;
+   height:700px;
+   overflow:auto;
+   text-align:justify;
+   float:left;
+   margin:5px;
+}
+h3{
+  font-size:1.8rem;
+  text-shadow:-2px -2px 4px red;
+  text-align:center;
+  text-transform:uppercase;
+}
+h3:hover{
+  background-color:red;
+  color:yellow;
+}
+div{
+  font-size:1.2rem;
+}
+a{
+  font-size:1.2rem;
+  
+}
+a:hover{
+  font-size:1.5rem;
+  color:red;
+}
+a:active{
+  color:green;
+}
+a:visited{
+  color:brown;
+}
+.local p:hover{
+  background-color:black;
+  color:whitesmoke;
+}
+span{
+  font-weight:500;
+  position:fixed;
+  
+  font-size:1.8rem;
+  left:40px;
+}
+.parent{
+   position:relative;
+   left:30px;
+   
+}
+.child1{
+   position:absolute;
+   left:650px;
+   
+}
+.child2{
+  position:absolute;
+  left:350px;
+}
+.fix{
+  border:2px solid black;
+  border-radius:50%;
+  font-size:2rem;
+  font-weight:900;
+  background-color:pink;
+  position:fixed;
+  right:20px;
+  bottom:10px;
+  padding:20px;
+}
