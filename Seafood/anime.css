@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=BIZ+UDGothic&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Archivo:ital,wght@0,100..900;1,100..900&family=BIZ+UDGothic&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+}
+.main{
+  background-image:url("seafood.jpg");
+  height:100vh;
+  background-size:100% 100%;
+}
+h1{
+  text-align:center;
+ font-family: "BIZ UDGothic", sans-serif;
+  font-size:3.4rem;
+  padding-top:20px;
+  font-weight:800;
+  top:20px;
+  color:white;
+  
+}
+ul{
+  display:flex;
+  justify-content:space-evenly;
+  
+}
+ul li{
+  color:gold;
+  text-transform:small-caps;
+  
+  font-size:1.6rem;
+  font-weight:700;
+  list-style:none;
+}
+h2{
+  text-align:center;
+ font-family: "BIZ UDGothic", sans-serif;
+  color:gold;
+  cursor:pointer;
+  padding-top:5px;
+}
+ul li:hover{
+  color:white;
+  cursor:pointer;
+}
+.sea{
+   font-family: "Archivo", sans-serif;
+   font-size:4.3rem;
+   color:white;
+   margin-left:150px;
+}
+.banks{
+   font-family: "Archivo", sans-serif;
+   font-size:4.3rem;
+   color:white;
+   margin-left:150px;
+}
+.river{
+   font-family: "Archivo", sans-serif;
+   font-size:4.3rem;
+   color:white;
+   margin-left:150px;
+}
+.open{
+   margin-left:150px;
+  color:gold;
+   font-size:1.9rem;
+   padding-top:90px;
+  font-weight:600;
+}
+.btn{
+  padding:10px;
+  margin-left:150px;
+  color:white;
+  background-color:gold;
+  border:2px solid gold;
+  width:250px;
+  font-family: "Archivo", sans-serif;
+  margin-top:20px;
+  font-size:1.5rem;
+  cursor:pointer;
+}
+.main2{
+  display:flex;
+  justify-content:space-evnly;
+  margin-top:80px;
+}
+.sea img{
+  width:700px;
+  height:300px;
+}
+.food h3{
+  font-size:1.6rem;
+  margin-left:200px;
+  margin-bottom:40px;
+  font-weight:500;
+  font-family: "Archivo", sans-serif;
+  letter-spacing:1.4px;
+}
+.treat{
+  font-family: "BIZ UDGothic", sans-serif;
+  letter-spacing:1.3px;
+  font-size:1.1rem;
+  margin-bottom:30px;
+  margin-left:80px;
+}
+.menu{
+  font-family: "BIZ UDGothic", sans-serif;
+  letter-spacing:1.3px;
+  font-size:1.1rem;
+  margin-bottom:30px;
+  margin-left:140px;
+}
+.make{
+  font-family: "BIZ UDGothic", sans-serif;
+  letter-spacing:1.3px;
+  font-size:1.1rem;
+  margin-bottom:30px;
+  margin-left:140px;
+}
+.sunday{
+  font-family: "BIZ UDGothic", sans-serif;
+  letter-spacing:1.3px;
+  font-size:1.1rem;
+  margin-bottom:30px;
+  margin-left:120px;
+}
+.img1 img{
+  width:50px;
+  height:70px;
+  margin-left:160px;
+  cursor:pointer;
+  margin-bottom:30px;
+
+}
+.img1 p{
+   font-family: "BIZ UDGothic", sans-serif;
+  font-weight:500;
+  font-size:1.3rem;
+  margin-bottom:20px;
+  margin-left:100px;
+
+}
+.img1{
+  text-align:center;
+    }
+@keyframes anime{
+  0%{
+  left:0%;
+}
+  20%{
+  margin-left:20%;
+}
+  40%{
+  margin-left:40%;
+ }
+  60%{
+  margin-left:60%;
+}
+  80%{
+  margin-left:80%;
+}
+   100%{
+  margin-left:90%;
+}
+}
+.img2 img{
+  width:50px;
+  height:70px;
+  margin-left:100px;
+  cursor:pointer;
+  margin-bottom:30px;
+
+}
+.img2 p{
+    font-family: "BIZ UDGothic", sans-serif;
+  font-weight:500;
+  font-size:1.3rem;
+  margin-bottom:20px;
+  margin-left:100px;
+}
+.img2 .din{
+  font-weight:900;
+}
+.img2 .mon{
+  text-transform:small-caps;
+  margin-top:60px;
+  border:2px solid black;
+  background-color:gold;
+  color:white;
+  padding:5px;
+  margin-left:90px;
+   Animation-name:anime;
+   Animation-duration:5s;
+   Animation-delay:2s;
+   Animation-timing-function:ease-in-out;
+   Animation-direction:alternate;
+   Animation-iteration-count:infinite;
+  position:absolute;
+}
+.img2{
+  text-align:center;
+ 
+}
+.img3 img{
+   width:50px;
+  height:70px;
+  margin-left:120px;
+  cursor:pointer;
+  margin-bottom:30px;
+
+}
+.img3 p{
+  font-weight:500;
+  font-size:1.3rem;
+  margin-left:100px; 
+}
+img3{
+  text-align:center;
+ }
+.main3{
+  margin-top:150px;
+  display:flex;
+  justify-content:space-evenly;
+  position:relative;
+}
+
